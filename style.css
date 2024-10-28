@@ -41,17 +41,20 @@ p {
 .ship {
     position: relative;
     width: 45%;
-    /*transition: transform 0.3s;*/
 }
 
 .ship img {
     width: 100%;
     border-radius: 10px;
-    transition: opacity 0.3s;
+    transition: all 0.3s;
 }
 
 .ship img#oldship {
     filter: grayscale(100%);
+}
+
+.ship img#oldship:hover {
+    filter: grayscale(0%);
 }
 
 .ship img#newship {
