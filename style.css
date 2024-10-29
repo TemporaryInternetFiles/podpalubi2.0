@@ -122,3 +122,13 @@ p {
     display: inline-block;
     transform: scaleX(-1);
 }
+
+.footer a:link, .footer a:visited {
+    color: #888888;
+    transition: all 0.3s;
+}
+
+.footer a:hover {
+    color: #cccccc;
+    transition: all 0.3s;
+}
